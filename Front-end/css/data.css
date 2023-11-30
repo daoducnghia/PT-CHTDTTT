@@ -123,6 +123,10 @@ ul, li{
     gap: 20px;
 }
 
+.form-args label, .form-args input {
+    display: inline-block;
+}
+
 #auto-args{
     display: flex;
     justify-content: center;
@@ -141,7 +145,7 @@ ul, li{
     height: fit-content;
 }
 input {
-    margin-left: 60px;
+    margin-left: 30px;
 }
 #auto-args button {
     width: 200%;
@@ -168,9 +172,12 @@ input {
     grid-template-rows: repeat(2, 1fr);
     gap: 1px; 
 }
-.box{
-    /* border: 1px solid #b1b0b0; */
+.form-args div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important;
 }
+
 .img1{
     display: flex;
     justify-content: flex-start;
