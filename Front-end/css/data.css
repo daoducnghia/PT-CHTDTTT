@@ -177,7 +177,20 @@ input {
     flex-direction: row;
     justify-content: flex-end !important;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
 
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
 .img1{
     display: flex;
     justify-content: flex-start;
@@ -192,7 +205,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 175px;
+    padding-left: 30px;
 }
 span{
     font-size: 20px;
